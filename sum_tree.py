@@ -29,7 +29,7 @@ class SumTree:
     with each row having elements that are the sum of the two corresponding
     child elements:
 
-        layers[i + 1, 2 * k] := layers[i, k] + layers[i, k + 1]
+        layers[i + 1, k] := layers[i, 2 * k] + layers[i, 2 * k + 1]
 
     Layers are computed in a single pass of vector operations.  Sampling is
     done in a batch, also with a pass of vector operations.
