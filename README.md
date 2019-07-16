@@ -6,6 +6,8 @@ This repository contains an implementation of project 1 for [Udacity's Deep Rein
 This project implements a Deep Q-Learning Network for solving a Unity environment that can navigate and collect
 bananas in a large, square world.
 
+Recording of final implementation:
+
 ![Implemented solution](banana_solved.gif)
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.
