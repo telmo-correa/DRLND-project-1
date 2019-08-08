@@ -46,7 +46,7 @@ or the very helpful instructions at [Open AI Spinning Up](https://spinningup.ope
     ```
     git clone https://github.com/telmo-correa/DRLND-project-1
     cd DRLND-project-1
-    pip install .
+    pip install -r requirements.txt
     ```
     
     * Note that there seems to be issues installing unityagents on Windows 10 -- conda looks for a required version of
